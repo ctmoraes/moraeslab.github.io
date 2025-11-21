@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Moraes Lab – Projects</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="header-wrapper">
+  <header>
+    <div class="site-title-block">
+      <div class="site-title">MORAES LAB</div>
+      <div class="site-subtitle">Mitochondrial Biology & Gene Editing</div>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="contact.html">Contacts</a></li>
+        <li><a href="people.html">Research Team</a></li>
+        <li><a href="projects.html" class="active">Projects</a></li>
+        <li><a href="publications.html">Publications</a></li>
+        <li><a href="support.html">Support</a></li>
+        <li><a href="news.html">News &amp; Events</a></li>
+      </ul>
+    </nav>
+  </header>
+</div>
+
+<div class="hero">
+  <h1>PROJECTS</h1>
+</div>
+
+<div class="container">
+  <main>
+
+    <section class="section">
+      <div class="project">
+        <div>
+          <img src="images/mitotalen-mouse5024.png"
+               alt="mitoTALEN specific for a mouse mtDNA mutation (5024C>T)">
+        </div>
+        <div>
+          <h2>Manipulating mtDNA heteroplasmy</h2>
+          <p>
+            When mutant mtDNA is heteroplastic (i.e. co-exists with wild-type mtDNA),
+            the ability to destroy the mutant genomes can increase the levels of wild-type
+            mtDNA. We have developed a series of mtDNA editing enzymes designed to promote
+            a double-strand break in the mtDNA. Once mtDNA is cleaved, it is rapidly
+            degraded, leading to a transient depletion of mtDNA levels. The residual
+            molecules (now with increased relative levels of wild-type mtDNA) repopulate
+            mitochondria to normalize mtDNA levels. Recently, we have used mitoTALENs as
+            tools to reduce levels of mutant mtDNA in defective cells and tissues
+            (Pereira et al., 2018; Bacman et al., 2018).
+          </p>
+        </div>
+      </div>
+
+      <div class="project">
+        <div>
+          <h2>mtDNA mutations in aging</h2>
+          <p>
+            As we age, small levels of mtDNA deletions accumulate in our cells,
+            particularly in neurons and muscle. We have developed mouse models in which
+            we can induce mtDNA damage in different tissues. These mice have been
+            instrumental to analyze the role of mtDNA damage in the aging of skeletal
+            muscle and neurons. In addition, we have studied how transcriptional
+            regulators can compensate for age-related changes in gene expression
+            (Garcia et al., 2018).
+          </p>
+        </div>
+        <div>
+          <img src="images/aging-heatmap.png" alt="mtDNA aging heatmap">
+        </div>
+      </div>
+
+      <div class="project">
+        <div>
+          <img src="images/cytc-mouse.png" alt="Cytochrome c CNS mouse model">
+        </div>
+        <div>
+          <h2>Understanding genotype–phenotype correlations in mitochondrial diseases</h2>
+          <p>
+            Mitochondrial diseases have heterogeneous clinical presentations. The causes
+            of these phenotypes are poorly understood, and we have developed several
+            models with defects in different mitochondrial oxidative phosphorylation
+            enzymes to address this question, particularly for defects in the Central
+            Nervous System. One such model is a mouse with defective cytochrome c in
+            neurons, which showed a distinct phenotype (Pinto et al., 2018).
+          </p>
+        </div>
+      </div>
+
+      <div class="project">
+        <div>
+          <h2>Molecular function of mitochondrial proteins</h2>
+          <p>
+            We also study the basic function of mitochondrial proteins that modulate the
+            energy-producing oxidative phosphorylation system (Arguello et al., 2018).
+            These include subunits of the OXPHOS complexes as well as proteins that
+            indirectly affect mitochondrial function. We recently found that ATAD3
+            controls mitochondrial cristae structure and that loss of this protein
+            destabilizes mitochondrial nucleoids, leading to mtDNA damage
+            (Peralta et al., 2018).
+          </p>
+        </div>
+        <div>
+          <img src="images/atad3-model.png" alt="ATAD3 mitochondrial model">
+        </div>
+      </div>
+    </section>
+
+  </main>
+</div>
+
+<footer>
+  © <span id="year"></span> Moraes Laboratory. All rights reserved.
+</footer>
+
+<script>
+  document.getElementById('year').textContent = new Date().getFullYear();
+</script>
+
+</body>
+</html>
