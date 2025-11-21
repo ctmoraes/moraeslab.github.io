@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Moraes Lab – Contacts</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="header-wrapper">
+  <header>
+    <div class="site-title-block">
+      <div class="site-title">MORAES LAB</div>
+      <div class="site-subtitle">Mitochondrial Biology & Gene Editing</div>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="contact.html" class="active">Contacts</a></li>
+        <li><a href="people.html">Research Team</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="publications.html">Publications</a></li>
+        <li><a href="support.html">Support</a></li>
+        <li><a href="news.html">News &amp; Events</a></li>
+      </ul>
+    </nav>
+  </header>
+</div>
+
+<div class="hero">
+  <h1>CONTACTS – POSITIONS – DIRECTIONS</h1>
+</div>
+
+<div class="container">
+  <main>
+
+    <section class="section">
+      <h2>Address</h2>
+      <p>Moraes’ Lab<br>
+         University of Miami Miller School of Medicine<br>
+         Rosenstiel Medical and Science Building<br>
+         1600 NW 10th Avenue, room 7043<br>
+         Miami, FL 33136
+      </p>
+    </section>
+
+    <section class="section">
+      <h2>Contact</h2>
+      <p>
+        Carlos T. Moraes, Ph.D. – <a href="mailto:cmoraes@med.miami.edu">cmoraes@med.miami.edu</a><br>
+        Administrative Assistant – Barbara D’Agostino,
+        <a href="mailto:BDagosti@med.miami.edu">BDagosti@med.miami.edu</a>;
+        (305) 243-1388<br>
+        Lab: (305) 243-4232
+      </p>
+    </section>
+
+    <section class="section" id="prospective">
+      <h2>Prospective Students and Postdocs</h2>
+      <p>
+        We are proud to have a friendly and collaborative environment in the lab.
+      </p>
+      <p>
+        <strong>Graduate Students:</strong> Interested Ph.D. students should enter the
+        Program in Biological Sciences (PIBS), an umbrella program that allows students
+        to choose between different programs once they select a lab. Dr. Moraes is part
+        of the following programs: Neuroscience, Molecular Cell and Developmental Biology,
+        and Human Genetics and Genomics.
+      </p>
+      <p>
+        <strong>Postdoctoral Fellows:</strong> Interested postdoctoral fellows should
+        contact Dr. Moraes directly by sending a letter and CV by email.
+      </p>
+    </section>
+
+    <section class="section">
+      <h2>Directions</h2>
+      <p>
+        <strong>From North:</strong> Take I-95 south to exit 3A. Immediately take the
+        14th Street ramp. The lab is on the 7th floor of the Rosenstiel Medical and
+        Science Building.
+      </p>
+      <p>
+        <strong>From South:</strong> Take I-95 north to exit 3A. Immediately take the
+        12th Avenue ramp. Take 12th Avenue and turn right on 14th Street.
+      </p>
+
+      <!-- Simple Google Maps embed; you can adjust the query parameter if you like -->
+      <div class="video-embed">
+        <iframe
+          src="https://www.google.com/maps/embed/v1/place?key=YOUR_GOOGLE_MAPS_API_KEY&q=1600+NW+10th+Ave,+Miami,+FL+33136"
+          allowfullscreen>
+        </iframe>
+      </div>
+      <p style="font-size:0.8rem; color:#777;">
+        (If you don’t want to use an API key, you can replace the iframe above with
+        the embed code directly copied from Google Maps.)
+      </p>
+    </section>
+
+  </main>
+</div>
+
+<footer>
+  © <span id="year"></span> Moraes Laboratory. All rights reserved.
+</footer>
+
+<script>
+  document.getElementById('year').textContent = new Date().getFullYear();
+</script>
+
+</body>
+</html>
