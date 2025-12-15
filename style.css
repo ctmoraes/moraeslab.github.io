@@ -220,3 +220,11 @@ footer {
     letter-spacing: 0.2em;
   }
 }
+
+/* --- TEMP DEBUG: people photos --- */
+.person-card img{
+  display: block;
+  width: 200px;
+  height: auto;
+  outline: 2px solid red;
+}
