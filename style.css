@@ -238,10 +238,12 @@ footer {
 
 /* Uniform people photos */
 .person-card img{
-  width: 220px;        /* pick your size */
-  height: 220px;
-  object-fit: cover;  /* crop, do not stretch */
+  width: 220px;
+  aspect-ratio: 3 / 4;
+  object-fit: cover;
+  object-position: 50% 20%;
   border-radius: 12px;
   display: block;
   margin: 0 auto 12px;
 }
+
