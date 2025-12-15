@@ -74,18 +74,33 @@ nav a.active {
 
 /* Hero / banner */
 .hero {
-  background-color: #e9ecef;
+  position: relative;
+  min-height: 60vh;                 /* height of header */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background-image:
+    linear-gradient(
+      rgba(0,0,0,0.45),
+      rgba(0,0,0,0.45)
+    ),
+    url("assets/img/mitochondria-hero.jpg");
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  color: white;
   text-align: center;
-  padding: 4rem 1rem;
-  margin-bottom: 1.5rem;
 }
 
 .hero h1 {
-  font-size: 2rem;
-  letter-spacing: 0.25em;
-  text-transform: uppercase;
-  color: #ffffff;
+  font-size: clamp(2.5rem, 6vw, 4.5rem);
+  letter-spacing: 0.08em;
+  margin: 0;
 }
+
 
 /* Main container */
 .container {
