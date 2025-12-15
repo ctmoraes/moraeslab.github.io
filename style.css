@@ -228,3 +228,10 @@ footer {
   height: auto;
   outline: 2px solid red;
 }
+
+/* Support page hero background */
+.page-support .hero{
+  background-image:
+    linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)),
+    url("assets/img/Association-Support small2.jpg");
+}
