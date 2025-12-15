@@ -235,3 +235,13 @@ footer {
     linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)),
     url("assets/img/Association-Support small2.jpg");
 }
+
+/* Uniform people photos */
+.person-card img{
+  width: 220px;        /* pick your size */
+  height: 220px;
+  object-fit: cover;  /* crop, do not stretch */
+  border-radius: 12px;
+  display: block;
+  margin: 0 auto 12px;
+}
