@@ -247,3 +247,11 @@ footer {
   margin: 0 auto 12px;
 }
 
+.pub-list{
+  list-style: none;
+  padding-left: 0;
+}
+
+.pub-list li{
+  margin: 10px 0;
+}
