@@ -235,7 +235,12 @@ footer {
     linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)),
     url("assets/img/Association-Support small2.jpg");
 }
-
+/* Publications page hero background */
+.page-publications .hero{
+  background-image:
+    linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)),
+    url("assets/img/Publications3.jpg");
+}
 /* Uniform people photos */
 .person-card img{
   width: 220px;
