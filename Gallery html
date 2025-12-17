@@ -1,6 +1,9 @@
 <section class="section">
   <h2>Gallery</h2>
 
+<li><a href="Gallery.html" class="active">Gallery</a></li>
+
+
   <div class="gallery-grid">
     <figure class="gallery-item">
       <img src="assets/img/gallery/Halloween.jpg" alt="Mitochondria image">
