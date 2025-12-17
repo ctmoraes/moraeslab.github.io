@@ -13,8 +13,18 @@
     </figure>
 
     <figure class="gallery-item">
-      <img src="assets/img/gallery/microscope.png" alt="Microscope">
+      <img src="assets/img/gallery/IMG_9751.jpg" alt="Microscope">
       <figcaption>Microscope</figcaption>
+    </figure>
+
+    <figure class="gallery-item">
+      <img src="assets/img/gallery/Heartland 2021b.jpg" alt="Lab group photo">
+      <figcaption>Lab group (2025)</figcaption>
+    </figure>
+
+  <figure class="gallery-item">
+      <img src="assets/img/gallery/surfing.jpg" alt="Lab group photo">
+      <figcaption>Lab group (2025)</figcaption>
     </figure>
   </div>
 </section>
