@@ -260,3 +260,29 @@ footer {
 .pub-list li{
   margin: 10px 0;
 }
+
+/* Gallery grid */
+.gallery-grid{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1.25rem;
+}
+
+.gallery-item{
+  margin: 0;
+}
+
+.gallery-item img{
+  width: 100%;
+  aspect-ratio: 4 / 3;    /* consistent thumbnails */
+  object-fit: cover;
+  border-radius: 12px;
+  display: block;
+}
+
+.gallery-item figcaption{
+  font-size: 0.9rem;
+  color: #555;
+  margin-top: 0.4rem;
+  text-align: center;
+}
