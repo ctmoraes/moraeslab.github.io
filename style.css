@@ -75,7 +75,7 @@ nav a.active {
 /* Hero / banner */
 .hero {
   position: relative;
-  min-height: 60vh;                 /* height of header */
+  min-height: 40vh;                 /* height of header */
   display: flex;
   align-items: center;
   justify-content: center;
